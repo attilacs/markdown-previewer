@@ -8,8 +8,6 @@ const Editor = ({ markdown, setMarkdown }: EditorProps) => {
     <textarea
       name="editor"
       id="editor"
-      cols={80}
-      rows={50}
       autoFocus
       value={markdown}
       onChange={(e) => setMarkdown(e.target.value)}
